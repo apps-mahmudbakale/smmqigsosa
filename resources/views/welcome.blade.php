@@ -77,7 +77,7 @@
                             </div>
 
                             <div class="about-thumb">
-                                <img src="mission.png" alt="" class="img-fluid">
+                                <img src="missions.png" alt="" class="img-fluid">
                             </div>
                             <!--
                         <h4>Through consistent and professional exposure</h4>

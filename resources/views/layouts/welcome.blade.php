@@ -36,7 +36,7 @@
 
     @include('partials.footer')
     <script src="{{asset('js/scripts.js')}}"></script>
-    <script src="assets/vendor/nice-select/jquery.nice-select.js"></script>
+    <script src="{{asset('js/jquery.nice-select.js')}}"></script>
     <!-- slick carousel slider -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 </body>
