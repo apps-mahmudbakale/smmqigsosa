@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '1cd73a76cc79cea763ae052dbfe282e47d6769d2',
+        'reference' => '52f78e6f4dad8a9f37ed53fc2dc8ed83ae37e597',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -349,6 +349,15 @@
                 0 => 'v9.36.4',
             ),
         ),
+        'jajo/ng' => array(
+            'pretty_version' => '1.0',
+            'version' => '1.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../jajo/ng',
+            'aliases' => array(),
+            'reference' => 'e167dcc496c5fe53e7b3264954a35fdb19e7169e',
+            'dev_requirement' => false,
+        ),
         'kodova/hamcrest-php' => array(
             'dev_requirement' => true,
             'replaced' => array(
@@ -370,7 +379,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '1cd73a76cc79cea763ae052dbfe282e47d6769d2',
+            'reference' => '52f78e6f4dad8a9f37ed53fc2dc8ed83ae37e597',
             'dev_requirement' => false,
         ),
         'laravel/pint' => array(

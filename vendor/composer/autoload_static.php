@@ -123,6 +123,10 @@ class ComposerStaticInit839af92295b2ced6ff293eb0ef82b9c3
             'Laravel\\Sanctum\\' => 16,
             'Laravel\\Sail\\' => 13,
         ),
+        'J' => 
+        array (
+            'Jajo\\' => 5,
+        ),
         'I' => 
         array (
             'Illuminate\\Support\\' => 19,
@@ -409,6 +413,10 @@ class ComposerStaticInit839af92295b2ced6ff293eb0ef82b9c3
         array (
             0 => __DIR__ . '/..' . '/laravel/sail/src',
         ),
+        'Jajo\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/jajo/ng/src',
+        ),
         'Illuminate\\Support\\' => 
         array (
             0 => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Macroable',
@@ -535,6 +543,7 @@ class ComposerStaticInit839af92295b2ced6ff293eb0ef82b9c3
         'App\\Http\\Middleware\\TrustProxies' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustProxies.php',
         'App\\Http\\Middleware\\ValidateSignature' => __DIR__ . '/../..' . '/app/Http/Middleware/ValidateSignature.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
+        'App\\Models\\Member' => __DIR__ . '/../..' . '/app/Models/Member.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
@@ -2660,6 +2669,7 @@ class ComposerStaticInit839af92295b2ced6ff293eb0ef82b9c3
         'Illuminate\\View\\ViewFinderInterface' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewFinderInterface.php',
         'Illuminate\\View\\ViewName' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewName.php',
         'Illuminate\\View\\ViewServiceProvider' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewServiceProvider.php',
+        'Jajo\\NG' => __DIR__ . '/..' . '/jajo/ng/src/NG.php',
         'Laravel\\Sail\\Console\\InstallCommand' => __DIR__ . '/..' . '/laravel/sail/src/Console/InstallCommand.php',
         'Laravel\\Sail\\Console\\PublishCommand' => __DIR__ . '/..' . '/laravel/sail/src/Console/PublishCommand.php',
         'Laravel\\Sail\\SailServiceProvider' => __DIR__ . '/..' . '/laravel/sail/src/SailServiceProvider.php',

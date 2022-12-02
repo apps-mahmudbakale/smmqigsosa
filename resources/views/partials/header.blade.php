@@ -12,7 +12,7 @@
 
                 <div class="col-lg-6 col-sm-5 col-5 text-right">
                     <div class="preheader-right">
-                        <a title="Register" class="btn-auth btn-auth" href="register.html"><i
+                        <a title="Register" class="btn-auth btn-auth" href="{{route('membership')}}"><i
                                 class="fa fa-graduation-cap"></i> Member Portal</a>
                     </div>
                 </div>
@@ -35,7 +35,7 @@
 
                         <div class="collapse navbar-collapse" id="menucontent">
                             <ul class="navbar-nav ml-auto">
-                                <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                                <li class="nav-item active"><a class="nav-link" href="{{route('welcome')}}">Home</a></li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="">About</a>
                                 </li>

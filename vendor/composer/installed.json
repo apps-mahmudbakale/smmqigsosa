@@ -1196,6 +1196,49 @@
             "install-path": "../hamcrest/hamcrest-php"
         },
         {
+            "name": "jajo/ng",
+            "version": "1.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/donjajo/NG.git",
+                "reference": "e167dcc496c5fe53e7b3264954a35fdb19e7169e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/donjajo/NG/zipball/e167dcc496c5fe53e7b3264954a35fdb19e7169e",
+                "reference": "e167dcc496c5fe53e7b3264954a35fdb19e7169e",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.2"
+            },
+            "time": "2018-06-14T09:36:50+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Jajo\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jajo",
+                    "email": "me@donjajo.com"
+                }
+            ],
+            "description": "Class to get data on Nigerian states, capitals and local government areas",
+            "support": {
+                "issues": "https://github.com/donjajo/NG/issues",
+                "source": "https://github.com/donjajo/NG/tree/master"
+            },
+            "install-path": "../jajo/ng"
+        },
+        {
             "name": "laravel/framework",
             "version": "v9.36.4",
             "version_normalized": "9.36.4.0",
