@@ -13,7 +13,7 @@
                                 <p>Alumni Needs enables you to harness the power of your alumni network. Whatever may be the need (academic, relocation, career, projects, mentorship, etc. you can ask the community and get responses in three.</p>
                                 <div class="slider-btn">
                                     <a href="#about-area" class="btn btn-brand smooth-scroll">our mission</a>
-                                    <a href="" class="btn btn-brand-rev">our story</a>
+                                    <a href="{{route('about')}}" class="btn btn-brand-rev">our story</a>
                                 </div>
                             </div>
                         </div>
@@ -32,7 +32,7 @@
                                 <p>Alumni Needs enables you to harness the power of your alumni network. Whatever may be the need (academic, relocation, career, projects, mentorship, etc. you can ask the community and get responses in three.</p>
                                 <div class="slider-btn">
                                     <a href="#about-area" class="btn btn-brand">our mission</a>
-                                    <a href="" class="btn btn-brand-rev">our story</a>
+                                    <a href="{{route('about')}}" class="btn btn-brand-rev">our story</a>
                                 </div>
                             </div>
                         </div>
@@ -84,12 +84,10 @@
                         <p>A study of NACOS activities indicates that it reveals IT career and entrepreneurship opportunities to the youth of Nigeria. </p>
                         <p>We aim <br> -->
                             <ul style="list-style-type:disc; text-align:justify;margin-left:4%;">
-                                <li> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, vel! Expedita praesentium voluptate, error impedit magnam id blanditiis mollitia facere ab nostrum, ea doloribus ut quia quas maiores minima aut?.</li>
-                                <li> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum voluptatibus repudiandae ratione animi iusto tempore necessitatibus cupiditate, odit placeat quas nesciunt a ab et, omnis, dolor provident. Laborum, aut veniam.</li>
-                                <li> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione fuga placeat laudantium necessitatibus nulla tempora velit id ducimus, quidem libero voluptatum repellat temporibus architecto eligendi beatae alias recusandae, sunt odio.</li>
+                                <li> To bring all the old students that pass through the above named school together speaking a common voice with common objectives.</li>
                             </ul>
                             </p>
-                            <a href="" class="btn btn-brand about-btn">know more</a>
+                            <a href="{{route('about')}}" class="btn btn-brand about-btn">know more</a>
                         </div>
                     </div>
                 </div>

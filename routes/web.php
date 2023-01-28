@@ -20,6 +20,11 @@ Route::get('/', function () {
 })->name('welcome');
 
 
+Route::get('/about', function () {
+    return view('about');
+})->name('about');
+
+
 Route::get('/membership', function () {
     $ng = new NG();
     $states = $ng->states;
