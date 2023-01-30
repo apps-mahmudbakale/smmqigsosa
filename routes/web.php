@@ -28,7 +28,8 @@ Route::get('/about', function () {
 Route::get('/membership', function () {
     $ng = new NG();
     $states = $ng->states;
-    return view('membership', compact('states'));
+    $hostels = ['Khusri', 'Abdulbasit', 'Minshawi', 'Khuzaifi', 'Shuraim', 'Alsudais', 'Muhammad Bello', 'Nana Khadijah', "Nana A'isha", 'Nana Hafsah', 'Nana Saudah', 'Nana Fatima', "Nana Asma'u"];
+    return view('membership', compact('states', 'hostels'));
 })->name('membership');
 
 

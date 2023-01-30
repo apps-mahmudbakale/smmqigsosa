@@ -117,8 +117,12 @@
                                                             <div class="col-12 col-sm-6">
                                                                 <div class="form-group">
                                                                     <label for="hostel">Hostel</label>
-                                                                    <input type="text" class="form-control"
-                                                                        id="hostel" name="hostel" />
+                                                                   <select name="hostel" id="hostel" class="form-control">
+                                                                    @foreach ($hostels as $hostel)
+                                                                    <option value="{{ $hostel }}">
+                                                                        {{ $hostel }}</option>
+                                                                @endforeach
+                                                                   </select>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -148,18 +152,15 @@
                                                             </div>
                                                         </div>
                                                         <div class="row">
-                                                            <div class="col-12 col-sm-6">
+                                                            <div class="col-12 col-sm-12">
                                                                 <div class="form-group">
                                                                     <label for="occupation">Occupation</label>
-                                                                    <input type="text" name="occupation"
-                                                                        id="occupation" class="form-control">
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-12 col-sm-6">
-                                                                <div class="form-group">
-                                                                    <label for="place_of_work">Place of Work</label>
-                                                                    <input type="text" name="place_of_work"
-                                                                        id="place_of_work" class="form-control">
+                                                                    <select name="occupation" id="oocupation" class="form-control">
+                                                                        <option>Civil Servant</option>
+                                                                        <option>Business</option>
+                                                                        <option>Private Sector</option>
+                                                                        <option>Farmer</option>
+                                                                    </select>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -180,15 +181,12 @@
                                                             </div>
                                                         </div>
                                                         <div class="row">
-                                                            <div class="form-group file-input col-12 col-sm-6">
+                                                            <div class="form-group file-input col-12 col-sm-12">
                                                                 <label for="photo">Passport</label>
                                                                 <input type="file" name="photo" class="form-control" accept=".jpg,.png,.gif,.jpeg" required />
                                                             </div>
     
-                                                            <div class="form-group file-input col-12 col-sm-6">
-                                                                <label for="signature">Signature</label>
-                                                                <input type="file" name="signature" class="form-control" accept=".jpg,.png,.gif,.jpeg" required />
-                                                            </div>
+                                
                                                         </div>
                                                         <div class="row">
                                                             <div class="col-12 col-sm-12">
