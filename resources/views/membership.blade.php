@@ -82,7 +82,7 @@
                                                                 <div class="form-group">
                                                                     <label for="gender">Gender</label>
                                                                     <select name="gender" id="gender"
-                                                                        class="form-control select">
+                                                                        class="form-control">
                                                                         <option value="Male">Male</option>
                                                                         <option value="Female">Female</option>
                                                                     </select>
@@ -92,7 +92,7 @@
                                                                 <div class="form-group">
                                                                     <label for="marital_status">Marital Status</label>
                                                                     <select name="marital_status" id="marital_status"
-                                                                        class="form-control select">
+                                                                        class="form-control">
                                                                         <option value="Single">Single</option>
                                                                         <option value="Married">Married</option>
                                                                         <option value="Divorced">Divorced</option>
