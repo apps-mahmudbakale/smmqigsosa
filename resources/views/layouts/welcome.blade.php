@@ -21,6 +21,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet" />
     <!--Style css -->
     <link rel="stylesheet" href="{{asset('css/styles.css')}}" media="all" />
+    <link rel="stylesheet" href="{{ asset('css/sweetalert2.min.css') }}">
     <style>
         #about-area .about-area-wrapper:before{
             background-image:url('{{asset('missions.png')}}') !important;
@@ -39,6 +40,27 @@
     {{-- <script src="{{asset('js/jquery.nice-select.js')}}"></script> --}}
     <!-- slick carousel slider -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <script src="{{ asset('js/sweetalert2.min.js') }}"></script>
+    <script>
+        @if (session()->has('success'))
+            Swal.fire({
+                position: 'center',
+                icon: 'success',
+                title: '{{ session()->get('success') }}',
+                showConfirmButton: true,
+                timer: 2500
+            })
+        @elseif (session()->has('error'))
+            Swal.fire({
+                position: 'center',
+                icon: 'error',
+                title: '{{ session()->get('error') }}',
+                showConfirmButton: true,
+                timer: 5500
+            })
+        @endif
+    </script>
+   
 </body>
 
 </html>

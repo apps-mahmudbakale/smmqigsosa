@@ -17,6 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('lastname');
             $table->string('firstname');
+            $table->string('middlename');
             $table->string('email')->unique();
             $table->string('phone');
             $table->string('gender');
@@ -26,7 +27,7 @@ return new class extends Migration
             $table->string('state');
             $table->string('lga');
             $table->string('occupation');
-            $table->string('place_of_work');
+            // $table->string('place_of_work');
             $table->string('photo');
             $table->string('signature');
             $table->string('address');

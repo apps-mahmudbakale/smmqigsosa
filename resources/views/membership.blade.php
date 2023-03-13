@@ -46,20 +46,28 @@
                                                     <form action="{{route('register.member')}}" method="POST" enctype="multipart/form-data">
                                                         @csrf
                                                         <div class="row">
-                                                            <div class="col-12 col-sm-6">
-                                                                <div class="form-group">
-                                                                    <label for="lastname">Last Name</label>
-                                                                    <input type="text" class="form-control"
-                                                                        id="lastname" name="lastname" />
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-12 col-sm-6">
+                                                            <div class="col-12 col-sm-4">
                                                                 <div class="form-group">
                                                                     <label for="firstname">First Name</label>
                                                                     <input type="text" class="form-control"
                                                                         id="firstname" name="firstname" />
                                                                 </div>
                                                             </div>
+                                                            <div class="col-12 col-sm-4">
+                                                                <div class="form-group">
+                                                                    <label for="firstname">Middle Name</label>
+                                                                    <input type="text" class="form-control"
+                                                                        id="middlename" name="middlename" />
+                                                                </div>
+                                                           </div>
+                                                            <div class="col-12 col-sm-4">
+                                                                <div class="form-group">
+                                                                    <label for="lastname">Last Name</label>
+                                                                    <input type="text" class="form-control"
+                                                                        id="lastname" name="lastname" />
+                                                                </div>
+                                                            </div>
+                    
                                                         </div>
                                                         <div class="row">
                                                             <div class="col-12 col-sm-6">
